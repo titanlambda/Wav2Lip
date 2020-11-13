@@ -13,8 +13,8 @@ from flask_cors import cross_origin
 from flask import jsonify
 from flask import send_file
 
-# from render_local_computer import process
-from render_cloud_server import process
+from render_local_computer import process
+# from render_cloud_server import process
 
 # Create app
 print("Creating flask app...")
